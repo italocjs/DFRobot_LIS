@@ -23,7 +23,7 @@
 #define DBG(...)
 #endif
 
-#define LIS2DW12_I2C_ADDR  (0x19)  ///<LIS2DW12 IIC address
+#define LIS2DW12_I2C_ADDR  (0x18)  ///<LIS2DW12 IIC address
 #define IIS2DLPC_I2C_ADDR  (0x19)  ///<IIS2DLPC IIC address
 
 #define ERR_OK              0      ///<ok
