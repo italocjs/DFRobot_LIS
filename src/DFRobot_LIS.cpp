@@ -111,10 +111,9 @@ bool DFRobot_LIS::enableSleep(bool enable)
   
   readReg(REG_CTRL_REG5,&readRe,1);
   
-  if(reg == readRe)
-    return true;
-  else 
-    return false;
+  if(reg == readRe) {return true;}
+  
+  return false;
 }
 void DFRobot_LIS::setHFilterMode(eHighPassFilter_t mode){
 
